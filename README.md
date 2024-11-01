@@ -1,8 +1,8 @@
 # Credit-Card-Financial-Dashboard
-Project Objective
+# Project Objective
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
 
-DAX QUERIES USED :-
+# DAX QUERIES USED :-
 AgeGroup = SWITCH(
 TRUE(),
 'public cust_detail'[customer_age] < 30, "20-30",
@@ -32,13 +32,13 @@ FILTER(
 ALL('public cc_detail'),
 'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1))
 
-Project Insights- Week 53 (31st Dec)
+# Project Insights- Week 53 (31st Dec)
 WoW change:
 • Revenue increased by 28.8%,
 • Total Transaction Amt & Count increased by 3.2% & 16.3%
 • Customer count increased by 23.1%
 
-Overview YTD:
+# Overview YTD:
 • Overall revenue is 57M
 • Total interest is 8M
 • Total transaction amount is 46M
